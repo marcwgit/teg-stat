@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %fragmentName
+Bundle-SymbolicName: org.eclipse.swt.gtk.linux.x86_64;singleton:=true
+Bundle-Version: 3.105.1.v20160907-0248
+Bundle-ClassPath: org.eclipse.swt.gtk.linux.x86_64_3.105.1.v20160907-0248.jar
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.swt;bundle-version="[3.0.0,4.0.0)"
+Bundle-Localization: fragment
+Export-Package: org.eclipse.swt,
+ org.eclipse.swt.accessibility,
+ org.eclipse.swt.awt,
+ org.eclipse.swt.browser,
+ org.eclipse.swt.custom,
+ org.eclipse.swt.dnd,
+ org.eclipse.swt.events,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.internal;x-friends:="org.eclipse.ui",
+ org.eclipse.swt.internal.accessibility.gtk;x-internal:=true,
+ org.eclipse.swt.internal.cairo;x-internal:=true,
+ org.eclipse.swt.internal.cde;x-internal:=true,
+ org.eclipse.swt.internal.gnome;x-internal:=true,
+ org.eclipse.swt.internal.gtk;x-internal:=true,
+ org.eclipse.swt.internal.image;x-internal:=true,
+ org.eclipse.swt.internal.mozilla;x-internal:=true,
+ org.eclipse.swt.internal.opengl.glx;x-internal:=true,
+ org.eclipse.swt.internal.theme;x-internal:=true,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.opengl,
+ org.eclipse.swt.printing,
+ org.eclipse.swt.program,
+ org.eclipse.swt.widgets
+SWT-Arch: x86_64
+SWT-OS: linux
+Build-Jdk: 1.8.0_51
+Created-By: Apache Maven 3.3.3
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platform/eclipse.platform.swt.binaries.git;path="bundles/org.eclipse.swt.gtk.linux.x86_64";tag="M20160907-0400";commitId=5104954c2b6f5090f27323e7269cb359642cb5b4
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86_64))
+SWT-WS: gtk
+Archiver-Version: Plexus Archiver
+Built-By: genie.releng
